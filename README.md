@@ -46,4 +46,9 @@ npm run lint
 - Login route is handled in `src/routes/views.js`
 - Basic validation checks are implemented for email and password
 - This work was completed in the `feature/user-authentication` branch
+## Database Connection Feature
+- Database logic is implemented in `src/db/index.js`
+- Uses a stub connection for CheckPoint2
+- Added helper function to check database status
+- Implemented using a feature branch workflow
 
