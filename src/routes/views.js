@@ -12,3 +12,11 @@ router.get("/login", (req, res) => {
 });
 
 module.exports = { router };
+// ===============================
+// Login helper notes (CSP451)
+// ===============================
+// This login page is part of the user authentication feature.
+// Users must enter valid email and password.
+// Error messages will be shown for invalid input.
+// This is a demo implementation for CheckPoint 2.
+
