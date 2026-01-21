@@ -42,3 +42,8 @@ To intentionally create a merge conflict, edit the same lines in one of:
 npm test
 npm run lint
 ```
+## User Authentication Feature
+- Login route is handled in `src/routes/views.js`
+- Basic validation checks are implemented for email and password
+- This work was completed in the `feature/user-authentication` branch
+
