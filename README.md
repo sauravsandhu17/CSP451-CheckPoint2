@@ -1,5 +1,8 @@
 ## Conflict Demo
+
 This line was added in main branch.
+This line was added in feature/merge-conflict branch.
+
 
 # CSP451 Web Starter — Week 2 Checkpoint 2
 
