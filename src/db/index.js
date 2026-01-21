@@ -11,6 +11,14 @@
  *
  * Feature branch: feature/database-connection should implement:
  * - connect()
+function getDatabaseStatus() {
+  const result = connect();
+  if (result.connected) {
+    return "Database connected successfully";
+  }
+  return "Database connection failed";
+}
+
  * - a config pattern using environment variables
  * - a simple query function OR a client getter
  *
@@ -25,4 +33,4 @@ function connect() {
   return { connected: true, driver: "stub" };
 }
 
-module.exports = { connect };
+module.exports = { connect, getDatabaseStatus };
