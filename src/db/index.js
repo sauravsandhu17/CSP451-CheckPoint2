@@ -1,3 +1,11 @@
+// ===============================
+// Database Connection Module
+// ===============================
+// This module handles database connectivity for the app.
+// For CheckPoint2, this uses a simple stub connection.
+// In a real app, this could connect to MongoDB or Postgres.
+// This change is part of the database feature branch.
+
 /**
  * Database module (starter stub).
  *
